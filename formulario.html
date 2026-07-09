@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+        <header>
+            <h1 class="h1-nav">Evento</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html"> Início </a>
+                    </li>
+                    <li>
+                        <a href="formulario.html"> Cadastro </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1></h1>
+            <article class="form">
+                <form action="">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <label>Nome:</label>
+                        <input type="text" placeholder="Digite seu nome completo">
+                        
+                        <label>Email</label>
+                        <input type="email" placeholder="Digite o seu principal email">
+                        
+                        <label>Idade</label>
+                        <input type="number" placeholder="Digite sua idade na data do evento. Apenas números.">
+
+                        <label>Telefone</label>
+                        <input type="" placeholder="Digite seu telefone com DDD. Apenas números">                
+
+                        <!-- select -->
+                        <label>Estado:</label>
+                        <select name="Estado" id="">
+                            <option value="">Rio de Janeiro</option>
+                            <option value="">São Paulo</option>
+                            <option value="">Minas Gerais</option>
+                            <option value="">Espirito Santo</option>
+                        </select>
+
+                        <!-- checkbox -->
+                        <div>
+                            <input type="checkbox" id="Lorem1">
+                            <label for="Lorem1">Lorem</label>
+
+                            <input type="checkbox" id="Lorem2">
+                            <label for="Lorem2">Lorem</label>
+
+                            <input type="checkbox" id="Lorem2">
+                            <label for="Lorem2">Lorem</label>
+                        </div>
+
+                        <!-- radio -->
+                        <div>
+                            <input type="radio" id="Lorem4">
+                            <label for="Lorem4">Lorem</label>
+
+                            <input type="radio" id="Lorem5">
+                            <label for="Lorem5">Lorem</label>
+
+                            <input type="radio" id="Lorem6">
+                            <label for="Lorem6">Lorem</label>
+                        </div>
+
+                        <!-- textarea -->
+                        <label>Possui alguma necessidade especial para participar do evento:</label>
+                        <textarea name="" id="" rows="3" cols="40"></textarea>
+
+                        <!-- buttons -->
+                         <button class="button">Enviar</button>
+                         <button class="button">Limpar</button>
+                        
+                    </fieldset>
+                </form>
+            </article>            
+
+        </main>
+
+        <footer>
+            <small>@ Todos os direitos reservados ao evento</small>
+        </footer>
+
+    </body>
+</html>
+
+<!-- 
+    Um <form> com: Nome (texto), E-mail, Idade/Telefone — todos com placeholder —, um <select> (4+ opções), grupo de radio, grupo de checkbox (3+), 
+    uma <textarea> e botões Enviar e Limpar. Todo campo com <label>.
+    Formulário estilizado (nada de visual padrão): inputs com padding, borda e cantos arredondados, organizados com flexbox.
+-->
